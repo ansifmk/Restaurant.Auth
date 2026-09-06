@@ -1,0 +1,14 @@
+@Restaurant.Auth.Api_HostAddress = https://localhost:7243
+
+POST {{Restaurant.Auth.Api_HostAddress}}/api/auth/register
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "SecurePass123!",
+  "confirmPassword": "SecurePass123!",
+  "firstName": "Test",
+  "lastName": "User"
+}
+
+###
